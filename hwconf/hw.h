@@ -58,6 +58,8 @@
 #include "hw_75_300.h"
 #elif defined HW_VERSION_MINI4
 #include "hw_mini4.h"
+#elif defined HW_VERSION_A200S
+#include "hw_a200s.h"
 #else
 #error "No hardware version defined"
 #endif
